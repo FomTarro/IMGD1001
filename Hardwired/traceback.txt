@@ -2,21 +2,23 @@
 
 While running game code:
   File "game/script.rpy", line 9, in script
-    image bg_ceiling = "game/images/Backgrounds/bg_3.png",
-Exception: Not a displayable: ('game/images/Backgrounds/bg_3.png',)
+    image sl_idle scale = im.Scale(sl_idle, 400, 200)
+  File "game/script.rpy", line 9, in <module>
+    image sl_idle scale = im.Scale(sl_idle, 400, 200)
+NameError: name 'sl_idle' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/script.rpy", line 9, in script
-    image bg_ceiling = "game/images/Backgrounds/bg_3.png",
-  File "C:\Users\Tom\Documents\renpy-6.99.5-sdk\renpy\ast.py", line 892, in execute
-    renpy.exports.image(self.imgname, img)
-  File "C:\Users\Tom\Documents\renpy-6.99.5-sdk\renpy\exports.py", line 331, in image
-    d = renpy.easy.displayable(d)
-  File "C:\Users\Tom\Documents\renpy-6.99.5-sdk\renpy\easy.py", line 129, in displayable
-    raise Exception("Not a displayable: %r" % (d,))
-Exception: Not a displayable: ('game/images/Backgrounds/bg_3.png',)
+    image sl_idle scale = im.Scale(sl_idle, 400, 200)
+  File "C:\Users\Tom\Documents\renpy-6.99.5-sdk\renpy\ast.py", line 888, in execute
+    img = renpy.python.py_eval_bytecode(self.code.bytecode)
+  File "C:\Users\Tom\Documents\renpy-6.99.5-sdk\renpy\python.py", line 1472, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 9, in <module>
+    image sl_idle scale = im.Scale(sl_idle, 400, 200)
+NameError: name 'sl_idle' is not defined
 
 Windows-8-6.2.9200
 Ren'Py 6.99.5.602
