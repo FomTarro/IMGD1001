@@ -194,7 +194,6 @@
      <Compile Include="Assets\Fungus\iTween\Scripts\Commands\StopTweens.cs" />
      <Compile Include="Assets\Fungus\iTween\Scripts\Commands\iTweenCommand.cs" />
      <Compile Include="Assets\PersonalityTracker.cs" />
-     <Compile Include="Assets\TextSet.cs" />
      <None Include="Assets\Fungus\README.txt" />
      <None Include="Assets\Fungus\Flowchart\Editor\Resources\GLLineDraw.shader" />
      <None Include="Assets\Fungus\Narrative\Fonts\Exo2\OFL.txt" />
