@@ -193,6 +193,7 @@
      <Compile Include="Assets\Fungus\iTween\Scripts\Commands\StopTween.cs" />
      <Compile Include="Assets\Fungus\iTween\Scripts\Commands\StopTweens.cs" />
      <Compile Include="Assets\Fungus\iTween\Scripts\Commands\iTweenCommand.cs" />
+     <Compile Include="Assets\HoverHighlight.cs" />
      <Compile Include="Assets\PersonalityTracker.cs" />
      <Compile Include="Assets\TextSet.cs" />
      <None Include="Assets\Fungus\README.txt" />

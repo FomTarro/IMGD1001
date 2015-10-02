@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PersonalityTracker.cs">
     <Files>
-      <File FileName="Assets\PersonalityTracker.cs" Line="90" Column="22" />
+      <File FileName="Assets\HoverHighlight.cs" Line="26" Column="34" />
+      <File FileName="Assets\PersonalityTracker.cs" Line="94" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

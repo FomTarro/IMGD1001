@@ -81,6 +81,20 @@ public class PersonalityTracker : MonoBehaviour {
 		return all;
 	}
 
+	public string forceValues(int e, int i, int s, int n, int t, int f, int j, int p){
+		E = e;
+		I = i;
+		S = s;
+		N = n;
+		T = t;
+		F = f;
+		J = j;
+		P = p;
+
+		return tallyItUp ();
+	}
+
+
 	public string tallyItUp(){
 		finalType = "";
 		if (E >= I) {
