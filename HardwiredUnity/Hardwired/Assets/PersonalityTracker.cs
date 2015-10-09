@@ -32,8 +32,11 @@ public class PersonalityTracker : MonoBehaviour {
 	void Update () {
 	}
 
+
 	public void setPriorTypeList(string oldLists){
+		finalTypeList =  "";
 		finalTypeList += oldLists;
+		Debug.Log (finalTypeList);
 	}
 
 	public string listToString(){
@@ -80,7 +83,7 @@ public class PersonalityTracker : MonoBehaviour {
 	}
 
 	public bool unlockSecret(){
-		if (listOfEnds.Count == 16) {
+		if (finalTypeList.Length == 112) {
 			all = true;
 		}
 		return all;
@@ -136,12 +139,24 @@ public class PersonalityTracker : MonoBehaviour {
 			finalType += "P";
 		}
 		Debug.Log (finalType + " is your final type");
+		/*
 		if (!listOfEnds.Contains (finalType)) {
 			listOfEnds.Add(finalType);
 		}
+		*/
+
+		if (!finalTypeList.Contains (finalType))
+			finalTypeList += " " + finalType + "\n";
+
 		string temp = finalType;
 		finalType = "";
 		I = E = S = N = T = F = J = P = 0;
 		return temp;
 	}
+
+	public string getList(){
+		Debug.Log (finalTypeList);
+		return finalTypeList;
+	}
+
 }
