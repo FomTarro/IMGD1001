@@ -2,27 +2,18 @@
 using System.Collections;
 
 public class HoverHighlight : MonoBehaviour {
-
-	[SerializeField]
-	private Sprite highlight;
-	private Sprite original;
+	
 	[SerializeField]
 	private SpriteRenderer itemToChange;
 
 	// Use this for initialization
 	void Start () {
-		original = itemToChange.sprite;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 
 	void OnMouseEnter(){
-		itemToChange.sprite = highlight;
+		itemToChange.color = Color.cyan;
 	}
 	void OnMouseExit(){
-		itemToChange.sprite = original;
+		itemToChange.color = Color.white;
 	}
 }
