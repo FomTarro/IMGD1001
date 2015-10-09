@@ -40,6 +40,7 @@ public class PersonalityTracker : MonoBehaviour {
 		foreach (string s in listOfEnds) {
 			finalTypeList+= (" " + s + "\n");
 		}
+		Debug.Log (finalTypeList);
 		return finalTypeList;
 	}
 	
@@ -134,7 +135,7 @@ public class PersonalityTracker : MonoBehaviour {
 			Torso.sprite = Ps;
 			finalType += "P";
 		}
-		Debug.Log (finalType);
+		Debug.Log (finalType + " is your final type");
 		if (!listOfEnds.Contains (finalType)) {
 			listOfEnds.Add(finalType);
 		}

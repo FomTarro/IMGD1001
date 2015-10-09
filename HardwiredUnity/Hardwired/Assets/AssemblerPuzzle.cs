@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class AssemblerPuzzle : MonoBehaviour {
 
-	public string puzzleSet = "FJ";
+	public string puzzleSet = "FP";
 
 	private string[] puzzleOptions = {"FJ", "FP", "TJ", "TP"};
 
@@ -14,7 +14,7 @@ public class AssemblerPuzzle : MonoBehaviour {
 	[SerializeField]
 	private SpriteRenderer torso, physTorso;
 
-	private string[] currentSet = {"F", "J"};
+	private string[] currentSet = {"F", "P"};
 
 	[SerializeField]
 	private Sprite[] HeadSprites = new Sprite[2];
