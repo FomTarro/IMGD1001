@@ -32,6 +32,10 @@ public class PersonalityTracker : MonoBehaviour {
 	void Update () {
 	}
 
+	public void setPriorTypeList(string oldLists){
+		finalTypeList += oldLists;
+	}
+
 	public string listToString(){
 		foreach (string s in listOfEnds) {
 			finalTypeList+= (" " + s + "\n");
@@ -136,6 +140,7 @@ public class PersonalityTracker : MonoBehaviour {
 		}
 		string temp = finalType;
 		finalType = "";
+		I = E = S = N = T = F = J = P = 0;
 		return temp;
 	}
 }
