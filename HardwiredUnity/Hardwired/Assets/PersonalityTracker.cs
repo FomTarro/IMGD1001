@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class PersonalityTracker : MonoBehaviour {
 
@@ -12,6 +13,13 @@ public class PersonalityTracker : MonoBehaviour {
 
 	[SerializeField]
 	private Sprite Es, Is, Ss, Ns, Ts, Fs, Js, Ps;
+
+	[SerializeField]
+	private Text Et, It, St, Nt, Tt, Ft, Jt, Pt;
+
+	[SerializeField]
+	private Toggle valueShower;
+
 	[SerializeField]
 	private SpriteRenderer Head, Torso, Left, Right, Eyes;
 
@@ -57,27 +65,47 @@ public class PersonalityTracker : MonoBehaviour {
 		return false;
 	}
 
+	public void toggleValues(bool changed){
+		Et.enabled = It.enabled = St.enabled = Nt.enabled = Tt.enabled = Ft.enabled = Jt.enabled = Pt.enabled = valueShower.isOn;
+	}
+
 	public void addTraitCounter(string Trait){
 		Trait = Trait.ToUpper ();
 		char[] charArray = Trait.ToCharArray ();
 	foreach (char c in charArray) {
 			Debug.Log(c);
-			if (c.Equals ('E'))
+			if (c.Equals ('E')){
 				E++;
-			else if (c.Equals ('I'))
+				Et.text = "E:"+E;
+			}
+			else if (c.Equals ('I')){
 				I++;
-			else if (c.Equals ('S'))
+				It.text = "I:"+I;
+			}
+			else if (c.Equals ('S')){
 				S++;
-			else if (c.Equals ('N'))
+				St.text = "S:"+S;
+			}
+			else if (c.Equals ('N')){
 				N++;
-			else if (c.Equals ('T'))
+				Nt.text = "N:"+N;
+			}
+			else if (c.Equals ('T')){
 				T++;
-			else if (c.Equals ('F'))
+				Tt.text = "T:"+T;
+			}
+			else if (c.Equals ('F')){
 				F++;
-			else if (c.Equals ('J'))
+				Ft.text = "F:"+F;
+			}
+			else if (c.Equals ('J')){
 				J++;
-			else if (c.Equals ('P'))
+				Jt.text = "J:"+J;
+			}
+			else if (c.Equals ('P')){
 				P++;
+				Pt.text = "P:"+P;
+			}
 		}
 
 	}
