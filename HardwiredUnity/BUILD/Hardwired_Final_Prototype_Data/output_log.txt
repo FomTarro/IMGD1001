@@ -16,7 +16,108 @@ Platform assembly: C:\Users\Tom\Documents\GitHub\IMGD1001\IMGD1001\HardwiredUnit
 Loading C:\Users\Tom\Documents\GitHub\IMGD1001\IMGD1001\HardwiredUnity\BUILD\Hardwired_Final_Prototype_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Tom\Documents\GitHub\IMGD1001\IMGD1001\HardwiredUnity\BUILD\Hardwired_Final_Prototype_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Tom\Documents\GitHub\IMGD1001\IMGD1001\HardwiredUnity\BUILD\Hardwired_Final_Prototype_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.056 seconds
+- Completed reload, in  0.062 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Tom\Documents\GitHub\IMGD1001\IMGD1001\HardwiredUnity\BUILD\Hardwired_Final_Prototype_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Tom\Documents\GitHub\IMGD1001\IMGD1001\HardwiredUnity\BUILD\Hardwired_Final_Prototype_Data\Managed\System.dll (this message is harmless)
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+I
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+F
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+J
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+N
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+T
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+P
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+E
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+S
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+T
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+E
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+F
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+J
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+I
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+T
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+P
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+I
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+E
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+N
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+T
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+P
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+ENTP is your final type
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+ ENTP
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+ ENTP
+
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
