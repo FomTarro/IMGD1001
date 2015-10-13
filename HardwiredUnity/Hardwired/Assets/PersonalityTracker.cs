@@ -66,7 +66,14 @@ public class PersonalityTracker : MonoBehaviour {
 	}
 
 	public void toggleValues(bool changed){
-		Et.enabled = It.enabled = St.enabled = Nt.enabled = Tt.enabled = Ft.enabled = Jt.enabled = Pt.enabled = valueShower.isOn;
+		Et.gameObject.SetActive (changed);
+		It.gameObject.SetActive (changed); 
+		St.gameObject.SetActive (changed); 
+		Nt.gameObject.SetActive (changed); 
+		Tt.gameObject.SetActive (changed);
+		Ft.gameObject.SetActive (changed);
+		Jt.gameObject.SetActive (changed);
+		Pt.gameObject.SetActive (changed);
 	}
 
 	public void addTraitCounter(string Trait){
